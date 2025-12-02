@@ -29,10 +29,12 @@ footer {
 
 .chat-row.sent {
     justify-content: flex-end;
+    padding-left: 32px;
 }
 
 .chat-row.received {
     justify-content: flex-start;
+    padding-right: 32px;
 }
 
 .chat-message {
