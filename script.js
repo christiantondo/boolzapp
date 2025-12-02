@@ -8,7 +8,7 @@ const contactStatus = document.querySelector(".contact-status")
 const messages = []
 
 // Preparo l'indirizzo da chiamare
-const endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCgWL-gygu28s7-5cjB2fdj3ASZ3HWLawg"
+const endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key="
 
 const systemPrompt = "Sei Chris, un amico che risponde in modo amichevole e informale. Rispondi in italiano, con un tono cordiale e naturale, come farebbe un amico in una chat. Mantieni le risposte brevi e spontanee."
 
